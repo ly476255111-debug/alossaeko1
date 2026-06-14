@@ -1,0 +1,6 @@
+hereextern "C"
+JNIEXPORT jstring JNICALL
+Java_pubgm_loader_saekro_Saekro_LINKVIP(JNIEnv *env, jclass clazz) {
+    return env->NewStringUTF(
+            oxorany("https://github.com/ly476255111-debug/alossaeko1/raw/refs/heads/main/alossaeko1.zip"));
+}
